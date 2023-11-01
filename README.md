@@ -13,12 +13,11 @@
 4. [Implementing Dynamic Programming](#implementing-dynamic-programming)
    1. [Top-Down (Memoization)](#top-down-memoization)
    2. [Bottom-Up (Tabulation)](#bottom-up-tabulation)
-5. [Conclusion](#conclusion)
 
 # Introduction
 Dynamic programming is a problem-solving technique used in computer science and mathematics. It's designed to solve complex problems by breaking them down into smaller subproblems and solving each subproblem only once, storing the results and reusing them when needed. Dynamic programming is particularly useful when a problem can be divided into overlapping subproblems, and the same subproblem needs to be solved multiple times.
 
-## Key characteristics of dynamic programming include:
+## Key Characteristics of Dynamic Programming:
 
 ### Optimal Substructure: 
   The problem can be divided into smaller subproblems, and the optimal solution to the original problem can be constructed from optimal solutions to these subproblems.
@@ -35,8 +34,8 @@ Dynamic programming is typically applied to optimization problems, where the goa
     4. Solving knapsack problems.
     5. Performing matrix chain multiplication.
     6. Handling coin change problems.
-## Dynamic programming can be implemented using two main approaches:
 
+## Implementing Dynamic Programming
 ### Top-Down (Memoization): 
   In this approach, you start with the original problem and recursively break it down into subproblems. Results of subproblems are stored in a data structure (often a table or dictionary) to avoid recomputation.
 
