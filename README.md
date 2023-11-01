@@ -13,6 +13,7 @@
 4. [Implementing Dynamic Programming](#implementing-dynamic-programming)
    1. [Top-Down (Memoization)](#top-down-memoization)
    2. [Bottom-Up (Tabulation)](#bottom-up-tabulation)
+5. [Conclusion](#conclusion)
 
 # Introduction
 Dynamic programming is a problem-solving technique used in computer science and mathematics. It's designed to solve complex problems by breaking them down into smaller subproblems and solving each subproblem only once, storing the results and reusing them when needed. Dynamic programming is particularly useful when a problem can be divided into overlapping subproblems, and the same subproblem needs to be solved multiple times.
@@ -42,4 +43,6 @@ Dynamic programming is typically applied to optimization problems, where the goa
 ### Bottom-Up (Tabulation): 
   In this approach, you solve the subproblems first and then build up to the original problem. You start with the simplest subproblems and iteratively compute more complex subproblems, storing the results in a table.
 
-Dynamic programming is a powerful technique that is commonly used to optimize algorithmic solutions and is essential for solving a wide range of computational problems efficiently.
+## Conclusion
+Dynamic programming is a powerful technique that is commonly used to optimize algorithmic solutions,
+and is essential for solving a wide range of computational problems efficiently.
